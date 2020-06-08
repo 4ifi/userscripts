@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name          Hidden Scrollbars
+// @author        4ifi
 // @description	  Hide scrollbars in Chrome/Firefox/Edge/IE
 // @run-at        document-start
 // @version       1.0
