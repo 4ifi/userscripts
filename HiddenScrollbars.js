@@ -7,10 +7,12 @@
 // ==/UserScript==
 (function () {
 	var css = [
-	    "body { -ms-overflow-style: none; }",
-	    "body { overflow: -moz-scrollbars-none; }",
-	    "body ::-webkit-scrollbar { width: 0 !important }",
-            "body ::-webkit-scrollbar { display: none !important; }"
+		"body { -ms-overflow-style: none; }",
+		"body { overflow: -moz-scrollbars-none; }",
+		"body ::-webkit-scrollbar { width: 0 !important }",
+		"body::-webkit-scrollbar {",
+		"display: none !important;",
+		"}"
 	].join("\n");
 	if (typeof GM_addStyle != "undefined") {
 		GM_addStyle(css);
